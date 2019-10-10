@@ -1,0 +1,49 @@
+{
+  "name": "babou-app",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --port 8080 --open --color --mode development",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "format": "prettier --write \"src/**/*.js\"",
+    "eslint:fix": "eslint --fix \"src/**/*.js\""
+  },
+  "dependencies": {
+    "@babou/core": "file:..\\babou\\packages\\core\\",
+    "@babou/utils": "file:..\\babou\\packages\\utils\\",
+    "apollo-boost": "0.4.3",
+    "graphql": "14.4.2",
+    "graphql-tag": "2.10.1",
+    "react": "16.8.6",
+    "react-apollo-hooks": "0.5.0",
+    "react-dom": "16.8.6",
+    "rxjs": "6.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.0",
+    "@babel/preset-env": "7.5.0",
+    "@babel/preset-react": "7.0.0",
+    "@testing-library/react-hooks": "1.1.0",
+    "babel-eslint": "10.0.2",
+    "babel-jest": "24.8.0",
+    "babel-loader": "8.0.6",
+    "eslint": "6.0.1",
+    "eslint-config-react": "1.1.7",
+    "eslint-loader": "2.2.1",
+    "eslint-plugin-react": "7.14.2",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "interpolate-html-plugin": "3.0.0",
+    "jest": "24.8.0",
+    "nock": "10.0.6",
+    "prettier": "1.18.2",
+    "react-apollo": "2.5.8",
+    "react-test-renderer": "16.8.6",
+    "unfetch": "4.1.0",
+    "webpack": "4.35.3",
+    "webpack-cli": "3.3.5",
+    "webpack-dev-server": "3.7.2"
+  }
+}
